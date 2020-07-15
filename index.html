@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				width: 100vw;
+				height: 100vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.flexer {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="text" value="const foo = 1" />
+		<br />
+		<div class="flexer">
+			<button>
+				Parse in
+				<select>
+					<option value="lambda" selected>lambda</option>
+					<option value="js" disabled>js</option>
+				</select>
+			</button>
+		</div>
+
+		<script defer src="script.js"></script>
+		<noscript>You have to enable JavaScript.</noscript>
+	</body>
+</html>
